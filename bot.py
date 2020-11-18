@@ -2,7 +2,9 @@
 import discord
 import os
 import random
+from discord.ext import commands
 
+bot = commands.Bot('.')
 
 Joke = ("What rock group has four men that don't sing? Mount Rushmore.", "When I was a kid, my mother told me I could be anyone I wanted to be. Turns out, identity theft is a crime.", "What concert costs just 45 cents? 50 Cent featuring Nickelback!", "What do you call a mac 'n' cheese that gets all up in your face? Too close for comfort food!", "Why couldn't the bicycle stand up by itself? It was two tired!", "Did you hear about the restaurant on the moon? Great food, no atmosphere!", "It's inappropriate to make a 'dad joke' if you're not a dad. It's a faux pa.", "Did you hear about the circus fire? It was in tents.", "Can February March? No, but April May!", "How do lawyers say goodbye? We'll be suing ya!", "Wanna hear a joke about paper? Never mind—it's tearable.", "What's the best way to watch a fly fishing tournament? Live stream.", "Spring is here! I got so excited I wet my plants.", "I could tell a joke about pizza, but it's a little cheesy.", "Don't trust atoms. They make up everything!", "When does a joke become a dad joke? When it becomes apparent.", "I wouldn't buy anything with velcro. It's a total rip-off.", "What’s an astronaut’s favorite part of a computer? The space bar.", "I don't play soccer because I enjoy the sport. I'm just doing it for kicks!", "Why are elevator jokes so classic and good? They work on many levels.", "Why do bees have sticky hair? Because they use a honeycomb.", "What do you call a fake noodle? An impasta.", "Which state has the most streets? Rhode Island.", "What did the coffee report to the police? A mugging.", "What did the fish say when he hit the wall? Dam.", "Is this pool safe for diving? It deep ends.")
 Jokes = random.choice(Joke)
